@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+    <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBZkB0k9tCjSZw3pSw3vbPFK89VqssbZ0E",
+      authDomain: "corrida-feac1.firebaseapp.com",
+      databaseURL: "https://corrida-feac1-default-rtdb.firebaseio.com",
+      projectId: "corrida-feac1",
+      storageBucket: "corrida-feac1.appspot.com",
+      messagingSenderId: "795666094427",
+      appId: "1:795666094427:web:19ea32de1f0b4b7f8b627e"
+    };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+  </script>
+
+  
+
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
