@@ -1,2 +1,2 @@
-# C38RV_SpeedRacer_TeacherActivity
-Teacher Activity
+# C39RV_SpeedRacer_StudentActivity
+Student Activity
